@@ -45,6 +45,7 @@ body{
     padding: 22px 25px;
 }
 
+/*Home Page*/
 .container{
     overflow: hidden;
 }
@@ -122,4 +123,64 @@ td{
     font-size: 12px;
     font-weight: 500;
     padding: 10px 10px;
+}
+
+/*Why HTML Page*/
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+  }
+  
+.flex-container .box {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 10px;
+    line-height: 20px;
+}
+.Title1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 6%;
+}
+
+
+
+.T1-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.Title2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.t2{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1% 0%;
+}
+
+.T2-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.Title3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.T3-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
 }
