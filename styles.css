@@ -184,3 +184,77 @@ h1{
     font-family: 'Roboto', sans-serif;
     text-align: right;
 }
+
+.form {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: 5% 0% 5% 40%;
+}
+
+input[type="text"]{
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #333138;
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+input[type="email"]{
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #333138;
+    border-radius: 3px;
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+
+input[type="radio"] {
+    margin: 0 2% 3% 9%;
+}
+
+select#Select\ from\ list {
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #333138;
+    border-radius: 3px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+textarea {
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #333138;
+    border-radius: 3px;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+
+.comment{
+    position: relative;
+    top: -50px;
+}
+
+input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #FCAF58;
+    color: #000103;
+    border: none;
+    border-radius: 9px;
+    padding: 12px 25px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+input[type="reset"] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    color: #000103;
+    border: none;
+    border-radius: 9px;
+    padding: 12px 25px;
+    cursor: pointer;
+}
