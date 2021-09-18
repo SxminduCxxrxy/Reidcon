@@ -213,6 +213,10 @@ input[type="radio"] {
     margin: 0 2% 3% 9%;
 }
 
+input[type="checkbox"] {
+    margin: 0 2% 3% 7%;
+}
+
 select#Select\ from\ list {
     width: 30%;
     padding: 1%;
